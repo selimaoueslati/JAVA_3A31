@@ -3,7 +3,6 @@ package tn.esprit.gestionzoo.entities;
 
 public class Zoo {
 
-    //18
     private Animal[] animals;
     private String name;
     private String city;
@@ -55,7 +54,6 @@ public class Zoo {
         System.out.println("Number of cages : " + nbrCages);
     }
 
-    //17
     public boolean addAnimal(Animal animal) {
         if (animal == null || isZooFull() || searchAnimal(animal) != -1) {
             return false;
